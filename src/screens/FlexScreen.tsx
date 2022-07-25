@@ -15,7 +15,8 @@ const Styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: 'beige',
-    flexDirection: 'row-reverse', // row, column (default)
+    flexDirection: 'column',
+    justifyContent: 'flex-start', // flex-start, flex-end, center, space-around, space-between
   },
   box1: {
     borderWidth: 2,
