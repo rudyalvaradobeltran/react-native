@@ -16,18 +16,18 @@ const Styles = StyleSheet.create({
     flex: 1,
     backgroundColor: 'beige',
     // flexDirection: 'row',
-    justifyContent: 'center',
-    alignItems: 'center', // stretch, baseline, flex-start, flex-end
   },
   box1: {
     borderWidth: 2,
     borderColor: '#fff',
     fontSize: 30,
+    alignSelf: 'center',
   },
   box2: {
     borderWidth: 2,
     borderColor: '#fff',
     fontSize: 30,
+    alignSelf: 'flex-end',
   },
   box3: {
     borderWidth: 2,
